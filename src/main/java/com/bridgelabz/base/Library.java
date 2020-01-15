@@ -20,10 +20,10 @@ public class Library {
         try {
             FileInputStream fis = new FileInputStream(file);
             this.workbook = new XSSFWorkbook(fis);
-        } catch (FileNotFoundException var4) {
-            var4.printStackTrace();
-        } catch (IOException var5) {
-            var5.printStackTrace();
+        } catch (FileNotFoundException ex) {
+            ex.printStackTrace();
+        } catch (IOException ex) {
+            ex.printStackTrace();
         }
 
     }
