@@ -1,22 +1,23 @@
-package com.bridgelabz.base;
+package com.bridgelabz.generic;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.DataProvider;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class Library {
+public class ExcelData {
     XSSFWorkbook workbook;
     XSSFSheet sheet;
 
-    public Library(String excelPath) {
-        File file = new File(excelPath);
+    public ExcelData(String excelPath) {
 
+        File file = new File(excelPath);
         try {
             FileInputStream fis = new FileInputStream(file);
             this.workbook = new XSSFWorkbook(fis);

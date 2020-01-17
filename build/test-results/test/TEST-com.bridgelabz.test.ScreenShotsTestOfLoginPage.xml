@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.test.ScreenShotsTestOfLoginPage" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-17T14:00:54" hostname="FH400" time="15.989">
+  <properties/>
+  <testcase name="getScreenShotsUsingITestListener" classname="com.bridgelabz.test.ScreenShotsTestOfLoginPage" time="15.989"/>
+  <system-out><![CDATA[ In the OnTestStart Method [TestResult name=getScreenShotsUsingITestListener status=STARTED method=ScreenShotsTestOfLoginPage.getScreenShotsUsingITestListener()[pri:0, instance:com.bridgelabz.test.ScreenShotsTestOfLoginPage@3f30c37b] output={null}]
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 15351
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 17, 2020 7:30:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

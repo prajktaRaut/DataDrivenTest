@@ -1,10 +1,10 @@
 package com.bridgelabz.base;
 
 public interface IAutoConstant {
-    String CONFIGPATH = "https://www.facebook.com/";
+    String CONFIGPATH = "Config/Config.properties";
     String CHROMEKEY = "webdriver.chrome.driver";
-    String CHROMEVALUE = "/home/slot1/Documents/PrajktaRaut/DataDrivenTesting/Drivers/chromedriver";
+    String CHROMEVALUE = "Drivers/chromedriver";
     String GECKOKEY = "webdriver.gecko.driver";
-    String GECKOVALUE = "/home/slot1/Documents/PrajktaRaut/DataDrivenTesting/Drivers/geckodriver";
-    String EXCELPATH = "/home/slot1/Documents/PrajktaRaut/LoginData.xlsx";
+    String GECKOVALUE = "Drivers/geckodriver";
+    String EXCELPATH = "TestData/Data.xlsx";
 }
